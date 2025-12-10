@@ -1,0 +1,29 @@
+# --- CRITICAL CORE AI & DATA STACK ---
+# Pinning numpy<2.0.0 is ESSENTIAL for faiss-cpu compatibility.
+numpy<2.0.0
+onnxruntime>=1.17.0
+torch>=2.2.0
+
+# --- LLM & CLOUD SERVICES ---
+boto3>=1.34.0         # For Bedrock connection and AWS service interactions
+openai>=1.14.0         # Included just in case
+python-dotenv>=1.0.1   
+
+# --- LANGCHAIN & RAG ---
+langchain>=0.1.0
+langchain-huggingface>=0.0.1
+langchain-community>=0.0.25
+faiss-cpu>=1.7.4       # Vector store indexer
+pypdf>=4.0.0           
+transformers>=4.38.0   
+sentence-transformers>=2.2.2 # CRITICAL FIX: Required by HuggingFaceEmbeddings
+
+# --- API & SERVER ---
+fastapi>=0.109.0
+uvicorn>=0.27.0
+pydantic>=2.6.0
+requests>=2.31.0
+
+# --- UTILITY & TESTING ---
+streamlit>=1.31.0      
+pytest>=8.0.0

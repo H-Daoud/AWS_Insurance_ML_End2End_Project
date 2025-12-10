@@ -1,0 +1,425 @@
+2025-11-30 15:07:25,169 - SmartRAGEngine - INFO - Initializing SmartRAGEngine...
+2025-11-30 15:07:25,422 - SmartRAGEngine - INFO - ✅ Azure OpenAI Client connected.
+2025-11-30 15:07:25,423 - SmartRAGEngine - INFO - Downloading tokenizer from HuggingFace...
+2025-11-30 15:07:27,309 - SmartRAGEngine - INFO - ✅ Intent Router (ONNX) loaded.
+2025-11-30 15:07:30,541 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-11-30 15:07:30,541 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-30 15:07:33,262 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-11-30 15:07:33,375 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-11-30 15:07:33,645 - SmartRAGEngine - INFO - ✅ FAISS Vector Index loaded.
+2025-11-30 15:07:33,646 - CC_HD.FastAPI_app.app - INFO - SmartRAGEngine initialized successfully.
+2025-11-30 15:10:38,082 - SmartRAGEngine - INFO - Initializing SmartRAGEngine...
+2025-11-30 15:10:38,225 - SmartRAGEngine - INFO - ✅ Azure OpenAI Client connected.
+2025-11-30 15:10:38,226 - SmartRAGEngine - INFO - Downloading tokenizer from HuggingFace...
+2025-11-30 15:10:40,816 - SmartRAGEngine - INFO - ✅ Intent Router (ONNX) loaded.
+2025-11-30 15:10:46,045 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-11-30 15:10:46,045 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-30 15:10:50,176 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-11-30 15:11:11,102 - SmartRAGEngine - INFO - Initializing SmartRAGEngine...
+2025-11-30 15:11:11,271 - SmartRAGEngine - INFO - ✅ Azure OpenAI Client connected.
+2025-11-30 15:11:11,272 - SmartRAGEngine - INFO - Downloading tokenizer from HuggingFace...
+2025-11-30 15:11:13,900 - SmartRAGEngine - INFO - ✅ Intent Router (ONNX) loaded.
+2025-11-30 15:11:18,156 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-11-30 15:11:18,157 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-30 15:11:20,991 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-11-30 15:11:21,119 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-11-30 15:11:21,449 - SmartRAGEngine - INFO - ✅ FAISS Vector Index loaded.
+2025-11-30 15:11:21,450 - CC_HD.FastAPI_app.app - INFO - SmartRAGEngine initialized successfully.
+2025-11-30 15:13:06,193 - SmartRAGEngine - INFO - Initializing SmartRAGEngine...
+2025-11-30 15:13:06,333 - SmartRAGEngine - INFO - ✅ Azure OpenAI Client connected.
+2025-11-30 15:13:06,334 - SmartRAGEngine - INFO - Downloading tokenizer from HuggingFace...
+2025-11-30 15:13:08,454 - SmartRAGEngine - INFO - ✅ Intent Router (ONNX) loaded.
+2025-11-30 15:13:13,937 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-11-30 15:13:13,938 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-30 15:13:16,902 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-11-30 15:13:17,008 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-11-30 15:13:17,486 - SmartRAGEngine - INFO - ✅ FAISS Vector Index loaded.
+2025-11-30 15:13:17,486 - CC_HD.FastAPI_app.app - INFO - SmartRAGEngine initialized successfully.
+2025-11-30 15:13:38,447 - SmartRAGEngine - INFO - Initializing SmartRAGEngine...
+2025-11-30 15:13:38,547 - SmartRAGEngine - INFO - ✅ Azure OpenAI Client connected.
+2025-11-30 15:13:38,548 - SmartRAGEngine - INFO - Downloading tokenizer from HuggingFace...
+2025-11-30 15:13:40,121 - SmartRAGEngine - INFO - ✅ Intent Router (ONNX) loaded.
+2025-11-30 15:13:42,345 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-11-30 15:13:42,345 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-30 15:13:45,087 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-11-30 15:13:45,128 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-11-30 15:13:45,382 - SmartRAGEngine - INFO - ✅ FAISS Vector Index loaded.
+2025-11-30 15:13:45,382 - CC_HD.FastAPI_app.app - INFO - SmartRAGEngine initialized successfully.
+2025-11-30 15:15:41,841 - SmartRAGEngine - INFO - Initializing SmartRAGEngine...
+2025-11-30 15:15:41,945 - SmartRAGEngine - INFO - ✅ Azure OpenAI Client connected.
+2025-11-30 15:15:41,945 - SmartRAGEngine - INFO - Downloading tokenizer from HuggingFace...
+2025-11-30 15:15:43,387 - SmartRAGEngine - INFO - ✅ Intent Router (ONNX) loaded.
+2025-11-30 15:15:45,178 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-11-30 15:15:45,178 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-30 15:15:47,583 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-11-30 15:15:47,621 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-11-30 15:15:47,879 - SmartRAGEngine - INFO - ✅ FAISS Vector Index loaded.
+2025-11-30 15:15:47,879 - CC_HD.FastAPI_app.app - INFO - SmartRAGEngine initialized successfully.
+2025-11-30 15:17:37,780 - SmartRAGEngine - INFO - Initializing SmartRAGEngine...
+2025-11-30 15:17:37,930 - SmartRAGEngine - INFO - ✅ Azure OpenAI Client connected.
+2025-11-30 15:17:37,931 - SmartRAGEngine - INFO - Downloading tokenizer from HuggingFace...
+2025-11-30 15:17:41,037 - SmartRAGEngine - INFO - ✅ Intent Router (ONNX) loaded.
+2025-11-30 15:17:44,769 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-11-30 15:17:44,770 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-30 15:17:47,745 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-11-30 15:17:47,861 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-11-30 15:17:48,308 - SmartRAGEngine - INFO - ✅ FAISS Vector Index loaded.
+2025-11-30 15:17:48,309 - CC_HD.FastAPI_app.app - INFO - SmartRAGEngine initialized successfully.
+2025-11-30 15:18:45,771 - SmartRAGEngine - INFO - Initializing SmartRAGEngine...
+2025-11-30 15:18:45,896 - SmartRAGEngine - INFO - ✅ Azure OpenAI Client connected.
+2025-11-30 15:18:45,897 - SmartRAGEngine - INFO - Downloading tokenizer from HuggingFace...
+2025-11-30 15:18:47,781 - SmartRAGEngine - INFO - ✅ Intent Router (ONNX) loaded.
+2025-11-30 15:19:10,954 - SmartRAGEngine - INFO - Initializing SmartRAGEngine...
+2025-11-30 15:19:11,192 - SmartRAGEngine - INFO - ✅ Azure OpenAI Client connected.
+2025-11-30 15:19:11,193 - SmartRAGEngine - INFO - Downloading tokenizer from HuggingFace...
+2025-11-30 15:19:14,106 - SmartRAGEngine - INFO - ✅ Intent Router (ONNX) loaded.
+2025-11-30 15:19:20,169 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-11-30 15:19:20,169 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-30 15:19:44,459 - SmartRAGEngine - INFO - Initializing SmartRAGEngine...
+2025-11-30 15:19:44,577 - SmartRAGEngine - INFO - ✅ Azure OpenAI Client connected.
+2025-11-30 15:19:44,577 - SmartRAGEngine - INFO - Downloading tokenizer from HuggingFace...
+2025-11-30 15:19:46,364 - SmartRAGEngine - INFO - ✅ Intent Router (ONNX) loaded.
+2025-11-30 15:19:49,785 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-11-30 15:19:49,786 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-30 15:19:52,670 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-11-30 15:19:52,776 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-11-30 15:19:53,040 - SmartRAGEngine - INFO - ✅ FAISS Vector Index loaded.
+2025-11-30 15:19:53,040 - CC_HD.FastAPI_app.app - INFO - SmartRAGEngine initialized successfully.
+2025-11-30 15:20:16,495 - SmartRAGEngine - INFO - Initializing SmartRAGEngine...
+2025-11-30 15:20:16,580 - SmartRAGEngine - INFO - ✅ Azure OpenAI Client connected.
+2025-11-30 15:20:16,581 - SmartRAGEngine - INFO - Downloading tokenizer from HuggingFace...
+2025-11-30 15:20:17,930 - SmartRAGEngine - INFO - ✅ Intent Router (ONNX) loaded.
+2025-11-30 15:20:21,078 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-11-30 15:20:21,078 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-30 15:20:23,813 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-11-30 15:20:23,910 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-11-30 15:20:24,171 - SmartRAGEngine - INFO - ✅ FAISS Vector Index loaded.
+2025-11-30 15:20:24,171 - CC_HD.FastAPI_app.app - INFO - SmartRAGEngine initialized successfully.
+2025-11-30 15:39:56 - SmartRAGEngine - INFO - 🚀 Initializing SmartRAGEngine...
+2025-11-30 15:39:56 - SmartRAGEngine - INFO - ✅ Azure OpenAI Client connected.
+2025-11-30 15:39:59 - SmartRAGEngine - INFO - ✅ Intent Router (ONNX) loaded.
+2025-11-30 15:40:07 - SmartRAGEngine - INFO - ✅ FAISS Vector Index loaded.
+2025-11-30 15:49:35 - SmartRAGEngine - CRITICAL - 🔥 Generation Error: Error code: 401 - {'error': {'code': '401', 'message': 'Access denied due to invalid subscription key or wrong API endpoint. Make sure to provide a valid key for an active subscription and use a correct regional API endpoint for your resource.'}}
+Traceback (most recent call last):
+  File "/Users/daouddaoud_1/Desktop/AI-ML-WORLD/HUK_CC_HD/CC_HD/src/rag/engine.py", line 115, in generate_response
+    response = self.client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daouddaoud_1/Library/Python/3.11/lib/python/site-packages/openai/_utils/_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daouddaoud_1/Library/Python/3.11/lib/python/site-packages/openai/resources/chat/completions/completions.py", line 1147, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/Users/daouddaoud_1/Library/Python/3.11/lib/python/site-packages/openai/_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daouddaoud_1/Library/Python/3.11/lib/python/site-packages/openai/_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'code': '401', 'message': 'Access denied due to invalid subscription key or wrong API endpoint. Make sure to provide a valid key for an active subscription and use a correct regional API endpoint for your resource.'}}
+2025-11-30 15:55:06 - SmartRAGEngine - INFO - 🚀 Initializing SmartRAGEngine...
+2025-11-30 15:55:06 - SmartRAGEngine - INFO - ✅ Azure OpenAI Client connected.
+2025-11-30 15:55:07 - SmartRAGEngine - INFO - ✅ Intent Router (ONNX) loaded.
+2025-11-30 15:55:14 - SmartRAGEngine - INFO - ✅ FAISS Vector Index loaded.
+2025-11-30 15:55:50 - SmartRAGEngine - CRITICAL - 🔥 Generation Error: Error code: 401 - {'error': {'code': '401', 'message': 'Access denied due to invalid subscription key or wrong API endpoint. Make sure to provide a valid key for an active subscription and use a correct regional API endpoint for your resource.'}}
+Traceback (most recent call last):
+  File "/Users/daouddaoud_1/Desktop/AI-ML-WORLD/HUK_CC_HD/CC_HD/src/rag/engine.py", line 115, in generate_response
+    response = self.client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daouddaoud_1/Library/Python/3.11/lib/python/site-packages/openai/_utils/_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daouddaoud_1/Library/Python/3.11/lib/python/site-packages/openai/resources/chat/completions/completions.py", line 1147, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/Users/daouddaoud_1/Library/Python/3.11/lib/python/site-packages/openai/_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daouddaoud_1/Library/Python/3.11/lib/python/site-packages/openai/_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'code': '401', 'message': 'Access denied due to invalid subscription key or wrong API endpoint. Make sure to provide a valid key for an active subscription and use a correct regional API endpoint for your resource.'}}
+2025-11-30 16:01:02 - SmartRAGEngine - INFO - 🚀 Initializing SmartRAGEngine...
+2025-11-30 16:01:02 - SmartRAGEngine - INFO - ✅ Azure OpenAI Client connected.
+2025-11-30 16:01:04 - SmartRAGEngine - INFO - ✅ Intent Router (ONNX) loaded.
+2025-11-30 16:01:10 - SmartRAGEngine - INFO - ✅ FAISS Vector Index loaded.
+2025-11-30 16:01:54 - SmartRAGEngine - CRITICAL - 🔥 Generation Error: Error code: 401 - {'error': {'code': '401', 'message': 'Access denied due to invalid subscription key or wrong API endpoint. Make sure to provide a valid key for an active subscription and use a correct regional API endpoint for your resource.'}}
+Traceback (most recent call last):
+  File "/Users/daouddaoud_1/Desktop/AI-ML-WORLD/HUK_CC_HD/CC_HD/src/rag/engine.py", line 115, in generate_response
+    response = self.client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daouddaoud_1/Library/Python/3.11/lib/python/site-packages/openai/_utils/_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daouddaoud_1/Library/Python/3.11/lib/python/site-packages/openai/resources/chat/completions/completions.py", line 1147, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/Users/daouddaoud_1/Library/Python/3.11/lib/python/site-packages/openai/_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daouddaoud_1/Library/Python/3.11/lib/python/site-packages/openai/_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'code': '401', 'message': 'Access denied due to invalid subscription key or wrong API endpoint. Make sure to provide a valid key for an active subscription and use a correct regional API endpoint for your resource.'}}
+2025-11-30 16:04:51 - SmartRAGEngine - INFO - 🚀 Initializing SmartRAGEngine...
+2025-11-30 16:04:51 - SmartRAGEngine - INFO - ✅ Azure OpenAI Client connected.
+2025-11-30 16:04:53 - SmartRAGEngine - INFO - ✅ Intent Router (ONNX) loaded.
+2025-11-30 16:04:59 - SmartRAGEngine - INFO - ✅ FAISS Vector Index loaded.
+2025-11-30 16:05:35 - SmartRAGEngine - CRITICAL - 🔥 Generation Error: Error code: 401 - {'error': {'code': '401', 'message': 'Access denied due to invalid subscription key or wrong API endpoint. Make sure to provide a valid key for an active subscription and use a correct regional API endpoint for your resource.'}}
+Traceback (most recent call last):
+  File "/Users/daouddaoud_1/Desktop/AI-ML-WORLD/HUK_CC_HD/CC_HD/src/rag/engine.py", line 115, in generate_response
+    response = self.client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daouddaoud_1/Library/Python/3.11/lib/python/site-packages/openai/_utils/_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daouddaoud_1/Library/Python/3.11/lib/python/site-packages/openai/resources/chat/completions/completions.py", line 1147, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/Users/daouddaoud_1/Library/Python/3.11/lib/python/site-packages/openai/_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daouddaoud_1/Library/Python/3.11/lib/python/site-packages/openai/_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'code': '401', 'message': 'Access denied due to invalid subscription key or wrong API endpoint. Make sure to provide a valid key for an active subscription and use a correct regional API endpoint for your resource.'}}
+2025-11-30 16:33:16 - SmartRAGEngine - INFO - 🚀 Initializing SmartRAGEngine...
+2025-11-30 16:33:16 - SmartRAGEngine - INFO - ✅ Azure OpenAI Client connected.
+2025-11-30 16:33:18 - SmartRAGEngine - INFO - ✅ Intent Router (ONNX) loaded.
+2025-11-30 16:33:24 - SmartRAGEngine - INFO - ✅ FAISS Vector Index loaded.
+2025-12-01 01:28:18 - SmartRAGEngine - INFO - 🚀 Initializing SmartRAGEngine...
+2025-12-01 01:28:18 - SmartRAGEngine - CRITICAL - 🔥 CRITICAL: Missing model ID or region. Check ECS environment variables.
+2025-12-01 01:28:20 - SmartRAGEngine - INFO - ✅ Intent Router (ONNX) loaded.
+2025-12-01 01:28:20 - SmartRAGEngine - CRITICAL - 🔥 Retrieval Init Failed: Could not import sentence_transformers python package. Please install it with `pip install sentence-transformers`.
+Traceback (most recent call last):
+  File "/Users/daouddaoud_1/Desktop/AI-ML-WORLD/HUK_CC_HD/CC_HD_aws/.venv/lib/python3.11/site-packages/langchain_huggingface/embeddings/huggingface.py", line 68, in __init__
+    import sentence_transformers  # type: ignore[import]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'sentence_transformers'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/daouddaoud_1/Desktop/AI-ML-WORLD/HUK_CC_HD/CC_HD_aws/src/rag/engine.py", line 80, in initialize_retrieval
+    self.embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daouddaoud_1/Desktop/AI-ML-WORLD/HUK_CC_HD/CC_HD_aws/.venv/lib/python3.11/site-packages/langchain_huggingface/embeddings/huggingface.py", line 74, in __init__
+    raise ImportError(msg) from exc
+ImportError: Could not import sentence_transformers python package. Please install it with `pip install sentence-transformers`.
+2025-12-01 01:29:25 - API_Server - INFO - 📩 Received query: how to register car accident?
+2025-12-01 01:34:17 - API_Server - INFO - 📩 Received query: how to register car accident?
+2025-12-01 01:35:34 - SmartRAGEngine - INFO - 🚀 Initializing SmartRAGEngine...
+2025-12-01 01:35:34 - SmartRAGEngine - CRITICAL - 🔥 CRITICAL: Missing model ID or region. Check ECS environment variables.
+2025-12-01 01:35:36 - SmartRAGEngine - INFO - ✅ Intent Router (ONNX) loaded.
+2025-12-01 01:35:36 - SmartRAGEngine - CRITICAL - 🔥 Retrieval Init Failed: Could not import sentence_transformers python package. Please install it with `pip install sentence-transformers`.
+Traceback (most recent call last):
+  File "/Users/daouddaoud_1/Desktop/AI-ML-WORLD/HUK_CC_HD/CC_HD_aws/.venv/lib/python3.11/site-packages/langchain_huggingface/embeddings/huggingface.py", line 68, in __init__
+    import sentence_transformers  # type: ignore[import]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'sentence_transformers'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/daouddaoud_1/Desktop/AI-ML-WORLD/HUK_CC_HD/CC_HD_aws/src/rag/engine.py", line 80, in initialize_retrieval
+    self.embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daouddaoud_1/Desktop/AI-ML-WORLD/HUK_CC_HD/CC_HD_aws/.venv/lib/python3.11/site-packages/langchain_huggingface/embeddings/huggingface.py", line 74, in __init__
+    raise ImportError(msg) from exc
+ImportError: Could not import sentence_transformers python package. Please install it with `pip install sentence-transformers`.
+2025-12-01 01:36:07 - API_Server - INFO - 📩 Received query: how to register car accident?
+2025-12-01 01:38:00 - SmartRAGEngine - INFO - 🚀 Initializing SmartRAGEngine...
+2025-12-01 01:38:00 - SmartRAGEngine - INFO - ✅ Bedrock Client initialized for model: amazon.nova-micro-v1:0 in eu-central-1.
+2025-12-01 01:38:02 - SmartRAGEngine - INFO - ✅ Intent Router (ONNX) loaded.
+2025-12-01 01:38:02 - SmartRAGEngine - CRITICAL - 🔥 Retrieval Init Failed: Could not import sentence_transformers python package. Please install it with `pip install sentence-transformers`.
+Traceback (most recent call last):
+  File "/Users/daouddaoud_1/Desktop/AI-ML-WORLD/HUK_CC_HD/CC_HD_aws/.venv/lib/python3.11/site-packages/langchain_huggingface/embeddings/huggingface.py", line 68, in __init__
+    import sentence_transformers  # type: ignore[import]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'sentence_transformers'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/daouddaoud_1/Desktop/AI-ML-WORLD/HUK_CC_HD/CC_HD_aws/src/rag/engine.py", line 80, in initialize_retrieval
+    self.embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daouddaoud_1/Desktop/AI-ML-WORLD/HUK_CC_HD/CC_HD_aws/.venv/lib/python3.11/site-packages/langchain_huggingface/embeddings/huggingface.py", line 74, in __init__
+    raise ImportError(msg) from exc
+ImportError: Could not import sentence_transformers python package. Please install it with `pip install sentence-transformers`.
+2025-12-01 01:38:26 - API_Server - INFO - 📩 Received query: how to register car accident?
+2025-12-01 01:38:26 - SmartRAGEngine - CRITICAL - 🔥 Generation Error: An error occurred (ValidationException) when calling the InvokeModel operation: Invocation of model ID amazon.nova-micro-v1:0 with on-demand throughput isn’t supported. Retry your request with the ID or ARN of an inference profile that contains this model.
+Traceback (most recent call last):
+  File "/Users/daouddaoud_1/Desktop/AI-ML-WORLD/HUK_CC_HD/CC_HD_aws/src/rag/engine.py", line 140, in generate_response
+    response = self.bedrock_runtime.invoke_model(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daouddaoud_1/Desktop/AI-ML-WORLD/HUK_CC_HD/CC_HD_aws/.venv/lib/python3.11/site-packages/botocore/client.py", line 602, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daouddaoud_1/Desktop/AI-ML-WORLD/HUK_CC_HD/CC_HD_aws/.venv/lib/python3.11/site-packages/botocore/context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daouddaoud_1/Desktop/AI-ML-WORLD/HUK_CC_HD/CC_HD_aws/.venv/lib/python3.11/site-packages/botocore/client.py", line 1078, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.ValidationException: An error occurred (ValidationException) when calling the InvokeModel operation: Invocation of model ID amazon.nova-micro-v1:0 with on-demand throughput isn’t supported. Retry your request with the ID or ARN of an inference profile that contains this model.
+2025-12-01 01:54:16 - SmartRAGEngine - INFO - 🚀 Initializing SmartRAGEngine...
+2025-12-01 01:54:17 - SmartRAGEngine - INFO - ✅ Bedrock Client initialized for model: anthropic.claude-3-haiku-20240307-v1:0 in eu-central-1.
+2025-12-01 01:54:18 - SmartRAGEngine - INFO - ✅ Intent Router (ONNX) loaded.
+2025-12-01 01:54:18 - SmartRAGEngine - CRITICAL - 🔥 Retrieval Init Failed: Could not import sentence_transformers python package. Please install it with `pip install sentence-transformers`.
+Traceback (most recent call last):
+  File "/Users/daouddaoud_1/Desktop/AI-ML-WORLD/HUK_CC_HD/CC_HD_aws/.venv/lib/python3.11/site-packages/langchain_huggingface/embeddings/huggingface.py", line 68, in __init__
+    import sentence_transformers  # type: ignore[import]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'sentence_transformers'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/daouddaoud_1/Desktop/AI-ML-WORLD/HUK_CC_HD/CC_HD_aws/src/rag/engine.py", line 80, in initialize_retrieval
+    self.embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daouddaoud_1/Desktop/AI-ML-WORLD/HUK_CC_HD/CC_HD_aws/.venv/lib/python3.11/site-packages/langchain_huggingface/embeddings/huggingface.py", line 74, in __init__
+    raise ImportError(msg) from exc
+ImportError: Could not import sentence_transformers python package. Please install it with `pip install sentence-transformers`.
+2025-12-01 01:55:04 - API_Server - INFO - 📩 Received query: hat is the procedure for filing a claim after a car accident?
+2025-12-01 01:55:04 - SmartRAGEngine - CRITICAL - 🔥 Generation Error: An error occurred (ValidationException) when calling the InvokeModel operation: Malformed input request: #: subject must not be valid against schema {"required":["messages"]}#: required key [anthropic_version] not found, please reformat your input and try again.
+Traceback (most recent call last):
+  File "/Users/daouddaoud_1/Desktop/AI-ML-WORLD/HUK_CC_HD/CC_HD_aws/src/rag/engine.py", line 140, in generate_response
+    response = self.bedrock_runtime.invoke_model(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daouddaoud_1/Desktop/AI-ML-WORLD/HUK_CC_HD/CC_HD_aws/.venv/lib/python3.11/site-packages/botocore/client.py", line 602, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daouddaoud_1/Desktop/AI-ML-WORLD/HUK_CC_HD/CC_HD_aws/.venv/lib/python3.11/site-packages/botocore/context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daouddaoud_1/Desktop/AI-ML-WORLD/HUK_CC_HD/CC_HD_aws/.venv/lib/python3.11/site-packages/botocore/client.py", line 1078, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.ValidationException: An error occurred (ValidationException) when calling the InvokeModel operation: Malformed input request: #: subject must not be valid against schema {"required":["messages"]}#: required key [anthropic_version] not found, please reformat your input and try again.
+2025-12-01 01:56:42 - API_Server - INFO - 📩 Received query: What is the procedure for filing a claim after a car accident?
+2025-12-01 01:56:42 - SmartRAGEngine - CRITICAL - 🔥 Generation Error: An error occurred (ResourceNotFoundException) when calling the InvokeModel operation: Model use case details have not been submitted for this account. Fill out the Anthropic use case details form before using the model. If you have already filled out the form, try again in 15 minutes.
+Traceback (most recent call last):
+  File "/Users/daouddaoud_1/Desktop/AI-ML-WORLD/HUK_CC_HD/CC_HD_aws/src/rag/engine.py", line 140, in generate_response
+    response = self.bedrock_runtime.invoke_model(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daouddaoud_1/Desktop/AI-ML-WORLD/HUK_CC_HD/CC_HD_aws/.venv/lib/python3.11/site-packages/botocore/client.py", line 602, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daouddaoud_1/Desktop/AI-ML-WORLD/HUK_CC_HD/CC_HD_aws/.venv/lib/python3.11/site-packages/botocore/context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daouddaoud_1/Desktop/AI-ML-WORLD/HUK_CC_HD/CC_HD_aws/.venv/lib/python3.11/site-packages/botocore/client.py", line 1078, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.ResourceNotFoundException: An error occurred (ResourceNotFoundException) when calling the InvokeModel operation: Model use case details have not been submitted for this account. Fill out the Anthropic use case details form before using the model. If you have already filled out the form, try again in 15 minutes.
+2025-12-01 03:13:08 - SmartRAGEngine - INFO - 🚀 Initializing SmartRAGEngine...
+2025-12-01 03:13:08 - SmartRAGEngine - INFO - ✅ Bedrock Client initialized for model: anthropic.claude-3-haiku-20240307-v1:0 in eu-central-1.
+2025-12-01 03:13:10 - SmartRAGEngine - INFO - ✅ Intent Router (ONNX) loaded.
+2025-12-01 03:13:10 - SmartRAGEngine - CRITICAL - 🔥 Retrieval Init Failed: Could not import sentence_transformers python package. Please install it with `pip install sentence-transformers`.
+Traceback (most recent call last):
+  File "/Users/daouddaoud_1/Desktop/AI-ML-WORLD/HUK_CC_HD/CC_HD_aws/.venv/lib/python3.11/site-packages/langchain_huggingface/embeddings/huggingface.py", line 68, in __init__
+    import sentence_transformers  # type: ignore[import]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'sentence_transformers'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/daouddaoud_1/Desktop/AI-ML-WORLD/HUK_CC_HD/CC_HD_aws/src/rag/engine.py", line 84, in initialize_retrieval
+    self.embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daouddaoud_1/Desktop/AI-ML-WORLD/HUK_CC_HD/CC_HD_aws/.venv/lib/python3.11/site-packages/langchain_huggingface/embeddings/huggingface.py", line 74, in __init__
+    raise ImportError(msg) from exc
+ImportError: Could not import sentence_transformers python package. Please install it with `pip install sentence-transformers`.
+2025-12-01 03:14:30 - API_Server - INFO - 📩 Received query: how to register car?
+2025-12-01 03:14:30 - SmartRAGEngine - CRITICAL - 🔥 Generation Error: An error occurred (UnrecognizedClientException) when calling the InvokeModel operation: The security token included in the request is invalid.
+Traceback (most recent call last):
+  File "/Users/daouddaoud_1/Desktop/AI-ML-WORLD/HUK_CC_HD/CC_HD_aws/src/rag/engine.py", line 143, in generate_response
+    response = self.bedrock_runtime.invoke_model(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daouddaoud_1/Desktop/AI-ML-WORLD/HUK_CC_HD/CC_HD_aws/.venv/lib/python3.11/site-packages/botocore/client.py", line 602, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daouddaoud_1/Desktop/AI-ML-WORLD/HUK_CC_HD/CC_HD_aws/.venv/lib/python3.11/site-packages/botocore/context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daouddaoud_1/Desktop/AI-ML-WORLD/HUK_CC_HD/CC_HD_aws/.venv/lib/python3.11/site-packages/botocore/client.py", line 1078, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.exceptions.ClientError: An error occurred (UnrecognizedClientException) when calling the InvokeModel operation: The security token included in the request is invalid.
+2025-12-01 03:18:46 - SmartRAGEngine - INFO - 🚀 Initializing SmartRAGEngine...
+2025-12-01 03:18:46 - SmartRAGEngine - INFO - ✅ Bedrock Client initialized for model: anthropic.claude-3-haiku-20240307-v1:0 in eu-central-1.
+2025-12-01 03:18:48 - SmartRAGEngine - INFO - ✅ Intent Router (ONNX) loaded.
+2025-12-01 03:18:48 - SmartRAGEngine - CRITICAL - 🔥 Retrieval Init Failed: Could not import sentence_transformers python package. Please install it with `pip install sentence-transformers`.
+Traceback (most recent call last):
+  File "/Users/daouddaoud_1/Desktop/AI-ML-WORLD/HUK_CC_HD/CC_HD_aws/.venv/lib/python3.11/site-packages/langchain_huggingface/embeddings/huggingface.py", line 68, in __init__
+    import sentence_transformers  # type: ignore[import]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'sentence_transformers'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/daouddaoud_1/Desktop/AI-ML-WORLD/HUK_CC_HD/CC_HD_aws/src/rag/engine.py", line 84, in initialize_retrieval
+    self.embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daouddaoud_1/Desktop/AI-ML-WORLD/HUK_CC_HD/CC_HD_aws/.venv/lib/python3.11/site-packages/langchain_huggingface/embeddings/huggingface.py", line 74, in __init__
+    raise ImportError(msg) from exc
+ImportError: Could not import sentence_transformers python package. Please install it with `pip install sentence-transformers`.
+2025-12-01 03:19:27 - API_Server - INFO - 📩 Received query: hi
+2025-12-01 03:19:27 - SmartRAGEngine - CRITICAL - 🔥 Generation Error: An error occurred (ResourceNotFoundException) when calling the InvokeModel operation: Model use case details have not been submitted for this account. Fill out the Anthropic use case details form before using the model. If you have already filled out the form, try again in 15 minutes.
+Traceback (most recent call last):
+  File "/Users/daouddaoud_1/Desktop/AI-ML-WORLD/HUK_CC_HD/CC_HD_aws/src/rag/engine.py", line 143, in generate_response
+    response = self.bedrock_runtime.invoke_model(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daouddaoud_1/Desktop/AI-ML-WORLD/HUK_CC_HD/CC_HD_aws/.venv/lib/python3.11/site-packages/botocore/client.py", line 602, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daouddaoud_1/Desktop/AI-ML-WORLD/HUK_CC_HD/CC_HD_aws/.venv/lib/python3.11/site-packages/botocore/context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daouddaoud_1/Desktop/AI-ML-WORLD/HUK_CC_HD/CC_HD_aws/.venv/lib/python3.11/site-packages/botocore/client.py", line 1078, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.ResourceNotFoundException: An error occurred (ResourceNotFoundException) when calling the InvokeModel operation: Model use case details have not been submitted for this account. Fill out the Anthropic use case details form before using the model. If you have already filled out the form, try again in 15 minutes.
+2025-12-01 04:36:10 - SmartRAGEngine - INFO - 🚀 Initializing SmartRAGEngine...
+2025-12-01 04:36:10 - SmartRAGEngine - CRITICAL - ❌ Missing Bedrock environment variables.
+2025-12-01 04:36:12 - SmartRAGEngine - INFO - ✅ Intent Router loaded.
+2025-12-01 04:36:12 - SmartRAGEngine - CRITICAL - 🔥 Retrieval init failed: Could not import sentence_transformers python package. Please install it with `pip install sentence-transformers`.
+Traceback (most recent call last):
+  File "/Users/daouddaoud_1/Desktop/AI-ML-WORLD/HUK_CC_HD/CC_HD_aws/.venv/lib/python3.11/site-packages/langchain_huggingface/embeddings/huggingface.py", line 68, in __init__
+    import sentence_transformers  # type: ignore[import]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'sentence_transformers'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/daouddaoud_1/Desktop/AI-ML-WORLD/HUK_CC_HD/CC_HD_aws/src/rag/engine.py", line 91, in initialize_retrieval
+    self.embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daouddaoud_1/Desktop/AI-ML-WORLD/HUK_CC_HD/CC_HD_aws/.venv/lib/python3.11/site-packages/langchain_huggingface/embeddings/huggingface.py", line 74, in __init__
+    raise ImportError(msg) from exc
+ImportError: Could not import sentence_transformers python package. Please install it with `pip install sentence-transformers`.
+2025-12-01 04:38:42 - SmartRAGEngine - INFO - 🚀 Initializing SmartRAGEngine...
+2025-12-01 04:38:42 - SmartRAGEngine - CRITICAL - ❌ Missing Bedrock environment variables.
+2025-12-01 04:38:44 - SmartRAGEngine - INFO - ✅ Intent Router loaded.
+2025-12-01 04:40:50 - SmartRAGEngine - INFO - 🚀 Initializing SmartRAGEngine...
+2025-12-01 04:40:50 - SmartRAGEngine - CRITICAL - ❌ Missing Bedrock environment variables.
+2025-12-01 04:40:51 - SmartRAGEngine - INFO - ✅ Intent Router loaded.
+2025-12-01 04:40:57 - SmartRAGEngine - INFO - ✅ FAISS vector store loaded.
+2025-12-01 04:44:09 - SmartRAGEngine - INFO - 🚀 Initializing SmartRAGEngine...
+2025-12-01 04:44:09 - SmartRAGEngine - CRITICAL - ❌ Missing Bedrock environment variables.
+2025-12-01 04:44:10 - SmartRAGEngine - INFO - ✅ Intent Router loaded.
+2025-12-01 04:44:15 - SmartRAGEngine - INFO - ✅ FAISS vector store loaded.
+2025-12-01 04:46:11 - SmartRAGEngine - INFO - 🚀 Initializing SmartRAGEngine...
+2025-12-01 04:46:13 - SmartRAGEngine - INFO - ✅ Intent Router loaded.
+2025-12-01 04:46:15 - SmartRAGEngine - INFO - ✅ FAISS vector store loaded.
+2025-12-01 04:46:15 - SmartRAGEngine - CRITICAL - 🔥 LLM generation error: 'bool' object has no attribute 'invoke_model'
+Traceback (most recent call last):
+  File "/Users/daouddaoud_1/Desktop/AI-ML-WORLD/HUK_CC_HD/CC_HD_aws/src/rag/engine.py", line 160, in generate_response
+    response = self.bedrock.invoke_model(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'bool' object has no attribute 'invoke_model'
+2025-12-01 04:47:55 - SmartRAGEngine - INFO - 🚀 Initializing SmartRAGEngine...
+2025-12-01 04:47:56 - SmartRAGEngine - INFO - ✅ Intent Router loaded.
+2025-12-01 04:47:58 - SmartRAGEngine - INFO - ✅ FAISS vector store loaded.
+2025-12-01 04:56:36 - SmartRAGEngine - INFO - 🚀 Initializing SmartRAGEngine...
+2025-12-01 04:56:37 - SmartRAGEngine - INFO - ✅ Intent Router loaded.
+2025-12-01 04:56:42 - SmartRAGEngine - INFO - ✅ FAISS vector store loaded.
+2025-12-01 05:10:27 - SmartRAGEngine - INFO - 🚀 Initializing SmartRAGEngine...
+2025-12-01 05:10:29 - SmartRAGEngine - INFO - ✅ Intent Router loaded.
+2025-12-01 05:10:33 - SmartRAGEngine - INFO - ✅ FAISS vector store loaded.

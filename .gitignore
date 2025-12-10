@@ -1,0 +1,5 @@
+# Terraform Artifacts
+.terraform/
+*.tfplan
+*.tfstate
+*.tfstate.backup

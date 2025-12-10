@@ -1,0 +1,526 @@
+{
+  "version": 4,
+  "terraform_version": "1.12.2",
+  "serial": 100,
+  "lineage": "b79d09a4-ed78-02bd-eb04-52a385df4d51",
+  "outputs": {
+    "alb_dns_name": {
+      "value": "huk-ml-alb-1369371126.eu-central-1.elb.amazonaws.com",
+      "type": "string"
+    },
+    "ecr_repository_url": {
+      "value": "880844766572.dkr.ecr.eu-central-1.amazonaws.com/huk-rag-chatbot-repo",
+      "type": "string"
+    },
+    "ecs_cluster_name": {
+      "value": "huk-ml-cluster",
+      "type": "string"
+    }
+  },
+  "resources": [
+    {
+      "mode": "data",
+      "type": "aws_subnets",
+      "name": "default",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "filter": [
+              {
+                "name": "vpc-id",
+                "values": [
+                  "vpc-04f2b606183a38bbf"
+                ]
+              }
+            ],
+            "id": "eu-central-1",
+            "ids": [
+              "subnet-02cd62955cc8b06a1",
+              "subnet-0aa190b89c131ecc0",
+              "subnet-008c452cc22c43775"
+            ],
+            "tags": null,
+            "timeouts": null
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0
+        }
+      ]
+    },
+    {
+      "mode": "data",
+      "type": "aws_vpc",
+      "name": "default",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "arn": "arn:aws:ec2:eu-central-1:880844766572:vpc/vpc-04f2b606183a38bbf",
+            "cidr_block": "172.31.0.0/16",
+            "cidr_block_associations": [
+              {
+                "association_id": "vpc-cidr-assoc-0afd88d6f2dc50015",
+                "cidr_block": "172.31.0.0/16",
+                "state": "associated"
+              }
+            ],
+            "default": true,
+            "dhcp_options_id": "dopt-0b376be73409ae8b1",
+            "enable_dns_hostnames": true,
+            "enable_dns_support": true,
+            "enable_network_address_usage_metrics": false,
+            "filter": null,
+            "id": "vpc-04f2b606183a38bbf",
+            "instance_tenancy": "default",
+            "ipv6_association_id": "",
+            "ipv6_cidr_block": "",
+            "main_route_table_id": "rtb-0c32a441457b08ab6",
+            "owner_id": "880844766572",
+            "state": null,
+            "tags": {},
+            "timeouts": null
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_ecr_repository",
+      "name": "huk_repo",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "arn": "arn:aws:ecr:eu-central-1:880844766572:repository/huk-rag-chatbot-repo",
+            "encryption_configuration": [
+              {
+                "encryption_type": "AES256",
+                "kms_key": ""
+              }
+            ],
+            "force_delete": true,
+            "id": "huk-rag-chatbot-repo",
+            "image_scanning_configuration": [
+              {
+                "scan_on_push": true
+              }
+            ],
+            "image_tag_mutability": "MUTABLE",
+            "name": "huk-rag-chatbot-repo",
+            "registry_id": "880844766572",
+            "repository_url": "880844766572.dkr.ecr.eu-central-1.amazonaws.com/huk-rag-chatbot-repo",
+            "tags": {},
+            "tags_all": {},
+            "timeouts": null
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiZGVsZXRlIjoxMjAwMDAwMDAwMDAwfX0="
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_ecs_cluster",
+      "name": "ml_cluster",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "arn": "arn:aws:ecs:eu-central-1:880844766572:cluster/huk-ml-cluster",
+            "configuration": [],
+            "id": "arn:aws:ecs:eu-central-1:880844766572:cluster/huk-ml-cluster",
+            "name": "huk-ml-cluster",
+            "service_connect_defaults": [],
+            "setting": [
+              {
+                "name": "containerInsights",
+                "value": "disabled"
+              }
+            ],
+            "tags": {},
+            "tags_all": {}
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA=="
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_ecs_task_definition",
+      "name": "ml_task",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes": {
+            "arn": "arn:aws:ecs:eu-central-1:880844766572:task-definition/huk_ml-task:2",
+            "arn_without_revision": "arn:aws:ecs:eu-central-1:880844766572:task-definition/huk_ml-task",
+            "container_definitions": "[{\"environment\":[],\"essential\":true,\"image\":\"880844766572.dkr.ecr.eu-central-1.amazonaws.com/huk-rag-chatbot-repo:latest\",\"mountPoints\":[],\"name\":\"ml_container\",\"portMappings\":[{\"containerPort\":8000,\"hostPort\":8000,\"protocol\":\"tcp\"}],\"systemControls\":[],\"volumesFrom\":[]}]",
+            "cpu": "512",
+            "enable_fault_injection": false,
+            "ephemeral_storage": [],
+            "execution_role_arn": "arn:aws:iam::880844766572:role/huk-ml-ecs-task-exec-role",
+            "family": "huk_ml-task",
+            "id": "huk_ml-task",
+            "inference_accelerator": [],
+            "ipc_mode": "",
+            "memory": "1024",
+            "network_mode": "awsvpc",
+            "pid_mode": "",
+            "placement_constraints": [],
+            "proxy_configuration": [],
+            "requires_compatibilities": [
+              "FARGATE"
+            ],
+            "revision": 2,
+            "runtime_platform": [],
+            "skip_destroy": false,
+            "tags": null,
+            "tags_all": {},
+            "task_role_arn": "",
+            "track_latest": false,
+            "volume": []
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjEifQ==",
+          "dependencies": [
+            "aws_ecr_repository.huk_repo",
+            "aws_iam_role.ecs_task_execution_role"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_iam_role",
+      "name": "ecs_task_execution_role",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "arn": "arn:aws:iam::880844766572:role/huk-ml-ecs-task-exec-role",
+            "assume_role_policy": "{\"Statement\":[{\"Action\":\"sts:AssumeRole\",\"Effect\":\"Allow\",\"Principal\":{\"Service\":\"ecs-tasks.amazonaws.com\"}}],\"Version\":\"2012-10-17\"}",
+            "create_date": "2025-12-01T06:44:02Z",
+            "description": "",
+            "force_detach_policies": false,
+            "id": "huk-ml-ecs-task-exec-role",
+            "inline_policy": [],
+            "managed_policy_arns": [
+              "arn:aws:iam::aws:policy/service-role/AmazonECSTaskExecutionRolePolicy"
+            ],
+            "max_session_duration": 3600,
+            "name": "huk-ml-ecs-task-exec-role",
+            "name_prefix": "",
+            "path": "/",
+            "permissions_boundary": "",
+            "tags": {},
+            "tags_all": {},
+            "unique_id": "AROA42FTQPVWFFGOZAZ2L"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA=="
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_iam_role_policy_attachment",
+      "name": "ecs_task_execution_role_policy",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "id": "huk-ml-ecs-task-exec-role-20251201064402715700000001",
+            "policy_arn": "arn:aws:iam::aws:policy/service-role/AmazonECSTaskExecutionRolePolicy",
+            "role": "huk-ml-ecs-task-exec-role"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA==",
+          "dependencies": [
+            "aws_iam_role.ecs_task_execution_role"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_lb",
+      "name": "huk_alb",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "access_logs": [
+              {
+                "bucket": "",
+                "enabled": false,
+                "prefix": ""
+              }
+            ],
+            "arn": "arn:aws:elasticloadbalancing:eu-central-1:880844766572:loadbalancer/app/huk-ml-alb/68cfae027a067f3f",
+            "arn_suffix": "app/huk-ml-alb/68cfae027a067f3f",
+            "client_keep_alive": 3600,
+            "connection_logs": [
+              {
+                "bucket": "",
+                "enabled": false,
+                "prefix": ""
+              }
+            ],
+            "customer_owned_ipv4_pool": "",
+            "desync_mitigation_mode": "defensive",
+            "dns_name": "huk-ml-alb-1369371126.eu-central-1.elb.amazonaws.com",
+            "dns_record_client_routing_policy": null,
+            "drop_invalid_header_fields": false,
+            "enable_cross_zone_load_balancing": true,
+            "enable_deletion_protection": false,
+            "enable_http2": true,
+            "enable_tls_version_and_cipher_suite_headers": false,
+            "enable_waf_fail_open": false,
+            "enable_xff_client_port": false,
+            "enable_zonal_shift": false,
+            "enforce_security_group_inbound_rules_on_private_link_traffic": "",
+            "id": "arn:aws:elasticloadbalancing:eu-central-1:880844766572:loadbalancer/app/huk-ml-alb/68cfae027a067f3f",
+            "idle_timeout": 60,
+            "internal": false,
+            "ip_address_type": "ipv4",
+            "ipam_pools": [],
+            "load_balancer_type": "application",
+            "minimum_load_balancer_capacity": [],
+            "name": "huk-ml-alb",
+            "name_prefix": "",
+            "preserve_host_header": false,
+            "security_groups": [
+              "sg-058335e2684ee6035"
+            ],
+            "subnet_mapping": [
+              {
+                "allocation_id": "",
+                "ipv6_address": "",
+                "outpost_id": "",
+                "private_ipv4_address": "",
+                "subnet_id": "subnet-008c452cc22c43775"
+              },
+              {
+                "allocation_id": "",
+                "ipv6_address": "",
+                "outpost_id": "",
+                "private_ipv4_address": "",
+                "subnet_id": "subnet-02cd62955cc8b06a1"
+              },
+              {
+                "allocation_id": "",
+                "ipv6_address": "",
+                "outpost_id": "",
+                "private_ipv4_address": "",
+                "subnet_id": "subnet-0aa190b89c131ecc0"
+              }
+            ],
+            "subnets": [
+              "subnet-008c452cc22c43775",
+              "subnet-02cd62955cc8b06a1",
+              "subnet-0aa190b89c131ecc0"
+            ],
+            "tags": {},
+            "tags_all": {},
+            "timeouts": null,
+            "vpc_id": "vpc-04f2b606183a38bbf",
+            "xff_header_processing_mode": "append",
+            "zone_id": "Z215JYRZR1TBD5"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjo2MDAwMDAwMDAwMDAsImRlbGV0ZSI6NjAwMDAwMDAwMDAwLCJ1cGRhdGUiOjYwMDAwMDAwMDAwMH19",
+          "dependencies": [
+            "data.aws_subnets.default",
+            "data.aws_vpc.default"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_lb_listener",
+      "name": "huk_listener",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "alpn_policy": null,
+            "arn": "arn:aws:elasticloadbalancing:eu-central-1:880844766572:listener/app/huk-ml-alb/68cfae027a067f3f/439d7c457e863e2f",
+            "certificate_arn": null,
+            "default_action": [
+              {
+                "authenticate_cognito": [],
+                "authenticate_oidc": [],
+                "fixed_response": [],
+                "forward": [],
+                "order": 1,
+                "redirect": [],
+                "target_group_arn": "arn:aws:elasticloadbalancing:eu-central-1:880844766572:targetgroup/huk-ml-tg/a129279b1fb38e34",
+                "type": "forward"
+              }
+            ],
+            "id": "arn:aws:elasticloadbalancing:eu-central-1:880844766572:listener/app/huk-ml-alb/68cfae027a067f3f/439d7c457e863e2f",
+            "load_balancer_arn": "arn:aws:elasticloadbalancing:eu-central-1:880844766572:loadbalancer/app/huk-ml-alb/68cfae027a067f3f",
+            "mutual_authentication": [],
+            "port": 80,
+            "protocol": "HTTP",
+            "routing_http_request_x_amzn_mtls_clientcert_header_name": null,
+            "routing_http_request_x_amzn_mtls_clientcert_issuer_header_name": null,
+            "routing_http_request_x_amzn_mtls_clientcert_leaf_header_name": null,
+            "routing_http_request_x_amzn_mtls_clientcert_serial_number_header_name": null,
+            "routing_http_request_x_amzn_mtls_clientcert_subject_header_name": null,
+            "routing_http_request_x_amzn_mtls_clientcert_validity_header_name": null,
+            "routing_http_request_x_amzn_tls_cipher_suite_header_name": null,
+            "routing_http_request_x_amzn_tls_version_header_name": null,
+            "routing_http_response_access_control_allow_credentials_header_value": "",
+            "routing_http_response_access_control_allow_headers_header_value": "",
+            "routing_http_response_access_control_allow_methods_header_value": "",
+            "routing_http_response_access_control_allow_origin_header_value": "",
+            "routing_http_response_access_control_expose_headers_header_value": "",
+            "routing_http_response_access_control_max_age_header_value": "",
+            "routing_http_response_content_security_policy_header_value": "",
+            "routing_http_response_server_enabled": true,
+            "routing_http_response_strict_transport_security_header_value": "",
+            "routing_http_response_x_content_type_options_header_value": "",
+            "routing_http_response_x_frame_options_header_value": "",
+            "ssl_policy": "",
+            "tags": {},
+            "tags_all": {},
+            "tcp_idle_timeout_seconds": null,
+            "timeouts": null
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjozMDAwMDAwMDAwMDAsInVwZGF0ZSI6MzAwMDAwMDAwMDAwfX0=",
+          "dependencies": [
+            "aws_lb.huk_alb",
+            "aws_lb_target_group.huk_tg",
+            "data.aws_subnets.default",
+            "data.aws_vpc.default"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_lb_target_group",
+      "name": "huk_tg",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "arn": "arn:aws:elasticloadbalancing:eu-central-1:880844766572:targetgroup/huk-ml-tg/a129279b1fb38e34",
+            "arn_suffix": "targetgroup/huk-ml-tg/a129279b1fb38e34",
+            "connection_termination": null,
+            "deregistration_delay": "300",
+            "health_check": [
+              {
+                "enabled": true,
+                "healthy_threshold": 2,
+                "interval": 30,
+                "matcher": "200-399",
+                "path": "/",
+                "port": "traffic-port",
+                "protocol": "HTTP",
+                "timeout": 5,
+                "unhealthy_threshold": 2
+              }
+            ],
+            "id": "arn:aws:elasticloadbalancing:eu-central-1:880844766572:targetgroup/huk-ml-tg/a129279b1fb38e34",
+            "ip_address_type": "ipv4",
+            "lambda_multi_value_headers_enabled": false,
+            "load_balancer_arns": [
+              "arn:aws:elasticloadbalancing:eu-central-1:880844766572:loadbalancer/app/huk-ml-alb/68cfae027a067f3f"
+            ],
+            "load_balancing_algorithm_type": "round_robin",
+            "load_balancing_anomaly_mitigation": "off",
+            "load_balancing_cross_zone_enabled": "use_load_balancer_configuration",
+            "name": "huk-ml-tg",
+            "name_prefix": "",
+            "port": 80,
+            "preserve_client_ip": null,
+            "protocol": "HTTP",
+            "protocol_version": "HTTP1",
+            "proxy_protocol_v2": false,
+            "slow_start": 0,
+            "stickiness": [
+              {
+                "cookie_duration": 86400,
+                "cookie_name": "",
+                "enabled": false,
+                "type": "lb_cookie"
+              }
+            ],
+            "tags": {
+              "Environment": "Dev",
+              "Name": "huk-ml-tg",
+              "Project": "TestProject"
+            },
+            "tags_all": {
+              "Environment": "Dev",
+              "Name": "huk-ml-tg",
+              "Project": "TestProject"
+            },
+            "target_failover": [
+              {
+                "on_deregistration": null,
+                "on_unhealthy": null
+              }
+            ],
+            "target_group_health": [
+              {
+                "dns_failover": [
+                  {
+                    "minimum_healthy_targets_count": "1",
+                    "minimum_healthy_targets_percentage": "off"
+                  }
+                ],
+                "unhealthy_state_routing": [
+                  {
+                    "minimum_healthy_targets_count": 1,
+                    "minimum_healthy_targets_percentage": "off"
+                  }
+                ]
+              }
+            ],
+            "target_health_state": [
+              {
+                "enable_unhealthy_connection_termination": null,
+                "unhealthy_draining_interval": null
+              }
+            ],
+            "target_type": "instance",
+            "vpc_id": "vpc-04f2b606183a38bbf"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA==",
+          "dependencies": [
+            "data.aws_vpc.default"
+          ]
+        }
+      ]
+    }
+  ],
+  "check_results": null
+}

@@ -1,0 +1,45 @@
+# AWS CloudFormation template for ML deployment
+# Provisions ECR, ECS Fargate service, IAM roles
+Resources:
+  MLRepository:
+    Type: AWS::ECR::Repository
+    Properties:
+      RepositoryName: huk-feedback-app
+  MLTaskRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: ecs-tasks.amazonaws.com
+            Action: sts:AssumeRole
+      Path: /
+  MLCluster:
+    Type: AWS::ECS::Cluster
+    Properties:
+      ClusterName: huk-feedback-cluster
+  MLService:
+    Type: AWS::ECS::Service
+    Properties:
+      Cluster: !Ref MLCluster
+      LaunchType: FARGATE
+      DesiredCount: 1
+      TaskDefinition: !Ref MLTaskDefinition
+  MLTaskDefinition:
+    Type: AWS::ECS::TaskDefinition
+    Properties:
+      Family: huk-feedback-task
+      NetworkMode: awsvpc
+      RequiresCompatibilities:
+        - FARGATE
+      Cpu: '1024'
+      Memory: '2048'
+      ContainerDefinitions:
+        - Name: huk-feedback-app
+          Image: <aws-account-id>.dkr.ecr.<region>.amazonaws.com/huk-feedback-app:latest
+          Essential: true
+          Environment:
+            - Name: ENV_FILE
+              Value: prod.env
