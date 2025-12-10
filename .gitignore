@@ -24,6 +24,7 @@ __pycache__/
 # Distribution / Packaging
 .Python
 env/
+*.env
 venv/
 pip-log.txt
 pip-delete-this-file.txt
