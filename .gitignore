@@ -3,3 +3,83 @@
 *.tfplan
 *.tfstate
 *.tfstate.backup
+# ----------------------------------------------------------------------
+# 1. Operating System and Editor Files
+# ----------------------------------------------------------------------
+.DS_Store
+.vscode/  # VS Code settings (optional, but good practice)
+*~
+# Thumbs.db (Windows)
+# .idea/ (PyCharm/IntelliJ files)
+
+# ----------------------------------------------------------------------
+# 2. Python-Specific Files
+# ----------------------------------------------------------------------
+# Byte-compiled files
+__pycache__/
+*.pyc
+*.pyd
+*.so
+
+# Distribution / Packaging
+.Python
+env/
+venv/
+pip-log.txt
+pip-delete-this-file.txt
+htmlcov/
+.tox/
+.coverage
+
+# Installer logs
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook files
+.ipynb_checkpoints
+
+# ----------------------------------------------------------------------
+# 3. Machine Learning / Data Science
+# ----------------------------------------------------------------------
+# Large data files (Use Git LFS for controlled tracking, otherwise ignore)
+*.csv
+*.tsv
+*.data
+*.bin
+*.pkl
+*.parquet
+*.h5 # Keras model files
+
+# Model artifacts (already seen a large model file issue!)
+*.onnx # We saw huk_distilbert.onnx.cpgz - ignore all model files
+*.pt
+*.pth
+*.joblib
+
+# Logs and Checkpoints
+/logs/
+/checkpoints/
+
+# ----------------------------------------------------------------------
+# 4. AWS / Deployment Artifacts
+# ----------------------------------------------------------------------
+# Terraform state files (if you are using Terraform)
+*.tfplan
+*.tfstate
+*.tfstate.backup
+
+# Local credentials (CRITICAL: NEVER COMMIT SECRETS)
+credentials
+config
+.aws/credentials
+
+# Compiled code/builds
+/dist/
+/build/
+
+# ----------------------------------------------------------------------
+# 5. Backup and Temporary Files
+# ----------------------------------------------------------------------
+*bak
+*temp
